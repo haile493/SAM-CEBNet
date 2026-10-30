@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environments & Editor configs
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+
+# Large Datasets, External Clones, References & Model Weights
+/dataset/
+/dataset_whu_pretrain/
+/ref/
+/external_repos/
+/outputs/
+*.pth
+*.pt
+*.bin
+*.onnx
+*.tif
+*.tiff
+*.geojson
+!sample_custom_data/**
+
+# Strictly Exclude Manuscript Generation, Word Docs, Figures, Tables & Notes
+build_manuscript.py
+make_figures.py
+redraw_fig2_cbrnet_style.py
+MML2OMML.XSL
+manuscript_figures/
+*.docx
+~$*.docx
+*.doc
+*.pdf
+review_paper_summary.txt
+review_references.txt
+review_topics.txt
+cbrnet_*
+seg1.png
+seg2.png
+seg3.png
+seg4.png

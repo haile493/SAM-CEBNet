@@ -1,0 +1,23 @@
+{
+  "strategy": "spatial_block",
+  "seed": 42,
+  "total_tiles": 4,
+  "counts": {
+    "train": 2,
+    "val": 1,
+    "unseen_test": 1
+  },
+  "zero_leakage_verified": true,
+  "splits": {
+    "train": [
+      "sample_002",
+      "sample_003"
+    ],
+    "val": [
+      "sample_001"
+    ],
+    "unseen_test": [
+      "sample_000"
+    ]
+  }
+}

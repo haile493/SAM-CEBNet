@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sam_cebnet"
+version = "1.0.0"
+description = "SAM-CEBNet: Foundation-Guided Corner & Edge Refinement Network Family for High-Precision Remote Sensing Building Extraction and Change Detection"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Hai Nguyen", email = "hai49@alumni.cmu.edu" }
+]
+keywords = [
+    "remote-sensing",
+    "building-extraction",
+    "change-detection",
+    "segment-anything",
+    "sam2",
+    "sam3",
+    "geospatial-ai",
+    "pytorch"
+]
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.2.0",
+    "pillow>=9.5.0",
+    "tifffile>=2023.4.12",
+    "shapely>=2.0.0",
+    "opencv-python>=4.8.0",
+    "matplotlib>=3.7.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["ag_models*", "models*", "datasets*"]
