@@ -204,10 +204,10 @@ python predict.py \
 If you find this code or dataset useful in your research, please cite:
 
 ```bibtex
-@article{nguyen2026samcebnet,
+@article{le2026samcebnet,
   title={SAM-CEBNet: Foundation-Guided Corner and Edge Refinement Network Family (SAM-2 \& SAM-3) for High-Precision Building Footprint Extraction in High-Resolution Remote Sensing Imagery},
-  author={Nguyen, Hai and Cheng, Bei and Tran, Anh-Tuan and Le, Minh-Duc},
-  journal={IEEE Transactions on Geoscience and Remote Sensing (TGRS)},
+  author={Thi-Mai-Anh Dinh, Nguyen-Ngoc-Nguyen To, Luong-Huy-Thong Huynh, Dai-Hiep Tran, Thi-Thu-Hien Pham and Thanh-Hai Le},
+  journal={submitting},
   year={2026}
 }
 ```
